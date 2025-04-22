@@ -216,7 +216,7 @@ header {
 }
 }
 
-@media (width>= 760px)and(width<1024px){
+@media (width> 760px) and (width<1024px) {
   .navbar {
     list-style-type: none;
     width: 100%;
@@ -225,12 +225,14 @@ header {
   }
   
   .navbar li {
-    width: 130px;
-    height: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #ffffff;
+    flex-grow: 4;
   }
-  
+  .main-article {
+    width: 100%;
+  }
+  .article {
+    width: 45%;
+    margin: 20px 0;
+  }
 }
